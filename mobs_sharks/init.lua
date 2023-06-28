@@ -90,7 +90,8 @@ if ENABLE_SHARK_LARGE then
 		},
 		interval = 30,
 		chance = l_spawn_chance,
-		max_height = 0
+		max_height = 0,
+		min_height = -64
 	})
 
 	mobs:register_egg("mobs_sharks:shark_lg", "Shark (large)",
@@ -151,7 +152,8 @@ if ENABLE_SHARK_MEDIUM then
 		},
 		interval = 30,
 		chance = l_spawn_chance,
-		max_height = 0
+		max_height = 0,
+		min_height = -64
 	})
 
 	mobs:register_egg("mobs_sharks:shark_md", "Shark (medium)",
@@ -212,7 +214,8 @@ if ENABLE_SHARK_SMALL then
 		},
 		interval = 30,
 		chance = l_spawn_chance,
-		max_height = 0
+		max_height = 0,
+		min_height = -64
 	})
 
 	mobs:register_egg("mobs_sharks:shark_sm", "Shark (small)",
